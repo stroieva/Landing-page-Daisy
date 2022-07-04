@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px) and (min-width: 550px) {
+    nav {
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    body .expand {
+        padding: 30px 30px 10px 30px;
+    }
+
+    body .expand .header-text {
+        padding: 50px 0px;
+        margin-bottom: 20px;
+    }
+
+    body .expand .header-text h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    body .our-team .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .header-text h2 {
+            font-size: 30px;
+        }
+    }
+
+
+@media screen and (max-width: 549px) {
+    nav {
+        padding: 0px 20px;
+    }
+
+    body .header-text h2 {
+        font-size: 30px;
+    }
+    
+    menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    menu li {
+        margin-bottom: 10px;
+    }
+
+    body .expand {
+        padding: 10px;
+    }
+
+    body .expand .header-text {
+        padding: 30px 0px;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    body .expand .header-text h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    body .our-process .images-process {
+        display: none;
+    }
+
+    body .our-process .steps {
+        display: block;
+    }
+
+    body .our-team .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .recive {
+        padding: 30px 20px;
+    }
+
+    .receive h2{
+        font-size: 26px;
+    }
+
+    .receive p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icons div {
+        max-width: 350px;
+    }
+
+    .icons div p {
+        margin-bottom: 20px;
+    }
+
+    body .expand .header-text h2{
+        font-size: 40px;
+    }
+
+   body a.button {
+        font-size: 16px;
+    }
+
+    body .our-team .team-container .team h4 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .we-do {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .we-do .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .we-do .container img {
+        width: 100%;
+    }
+
+    .we-do .container .right {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .we-do .container .left {
+        order: 2;
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        align-items: center;
+    }
+}

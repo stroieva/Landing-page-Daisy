@@ -1,0 +1,410 @@
+.h2 {
+  font-size: 51px;
+  color: white;
+}
+.h2::before {
+  content: "";
+  background: transparent;
+}
+body {
+  margin: 0 auto;
+  max-width: 1960px;
+}
+body .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body a.arrow-down {
+  font-size: 30px;
+  color: #fc635e;
+  text-decoration: none;
+  border: 1px solid #fc635e;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+body a.arrow-down:hover {
+  background-color: #fc635e;
+  color: white;
+}
+body a.button {
+  text-decoration: none;
+  color: #fc635e;
+  font-size: 24px;
+  border: 2px solid #fc635e;
+  border-radius: 8px;
+  padding: 12px 28px;
+}
+body a.button:hover {
+  background: #fc635e;
+  color: white;
+}
+body h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #565656;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+body h2:before {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #868686;
+}
+body h2 span {
+  color: #fc635e;
+}
+body .header-text {
+  text-align: center;
+}
+body .header-text h2 {
+  font-size: 51px;
+  color: white;
+}
+body .header-text h2::before {
+  content: "";
+  background: transparent;
+}
+body header {
+  background: url("../images/background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  width: 100%;
+  justify-content: space-around;
+}
+body header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header nav > a {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+body header nav > a img {
+  padding-right: 15px;
+  vertical-align: middle;
+}
+body header nav .logo:hover img {
+  opacity: 0.7;
+}
+body header nav menu {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+}
+body header nav menu ul {
+  display: flex;
+  list-style: none;
+}
+body header nav menu ul li {
+  padding-left: 15px;
+}
+body header nav menu ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+body header nav menu ul li a:hover {
+  color: #fc635e;
+  border-bottom: #fc635e solid 5px;
+  padding-bottom: 3px;
+}
+body header .header-text h2 {
+  margin: 0;
+}
+body header .header-text p {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 45px;
+}
+body .recive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  text-align: center;
+  background-color: white;
+  padding: 70px 50px 30px 50px;
+  color: gray;
+}
+body .recive p {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+body .recive .icons {
+  display: flex;
+}
+body .recive .icons h4 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #565656;
+}
+body .recive .icons p {
+  font-size: 18px;
+}
+body .recive .icons div {
+  padding: 15px;
+}
+body .expand {
+  background: url(../images/background-expand.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 100px 30px 100px;
+}
+body .expand .header-text {
+  padding: 50px;
+  border: 15px solid #5a6368;
+  margin-bottom: 80px;
+}
+body .our-process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body .our-process .steps {
+  display: none;
+}
+body .our-process p {
+  color: gray;
+}
+body .our-process p {
+  font-size: 22px;
+}
+body .our-process .images-process {
+  width: 100%;
+  min-height: 450px;
+  background-image: url(../images/our-process.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+body .we-do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .we-do .container {
+  display: flex;
+  align-items: center;
+}
+body .we-do h3 {
+  color: #565656;
+}
+body .we-do p {
+  color: gray;
+}
+body .we-do p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+body .we-do h3 {
+  text-transform: uppercase;
+}
+body .we-do-1 {
+  background: #f2f2f2;
+  padding: 30px 35px;
+}
+body .we-do-1 h3 {
+  border-left: 10px solid #fc635e;
+  padding-left: 5px;
+}
+body .we-do-2 {
+  padding: 100px 35px 30px 35px;
+}
+body .we-do-2 .left {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+body .we-do-2 .left h3 {
+  border-right: 10px solid #fc635e;
+  padding-right: 5px;
+}
+body .we-do-2 .right {
+  order: 1;
+}
+body .we-do-3 {
+  padding-top: 50px;
+}
+body .portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+body .portfolio .button {
+  margin: 40px 0;
+}
+body .portfolio h2 {
+  margin: 50px 0;
+}
+body .portfolio .controls {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 25px;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+body .portfolio .controls button {
+  color: #fc635e;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+body .portfolio .controls button:hover {
+  cursor: pointer;
+  color: #e44640;
+}
+body .portfolio .container-filter {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .portfolio .container-filter #ex1 {
+  background-image: url(../images/Portfolio/portfolio-1.png);
+}
+body .portfolio .container-filter #ex2 {
+  background-image: url(../images/Portfolio/portfolio-2.png);
+}
+body .portfolio .container-filter #ex3 {
+  background-image: url(../images/Portfolio/portfolio-3.png);
+}
+body .portfolio .container-filter #ex4 {
+  background-image: url(../images/Portfolio/portfolio-4.png);
+}
+body .portfolio .container-filter #ex5 {
+  background-image: url(../images/Portfolio/portfolio-5.png);
+}
+body .portfolio .container-filter #ex6 {
+  background-image: url(../images/Portfolio/portfolio-6.png);
+}
+body .portfolio .container-filter div {
+  background-size: cover;
+  background-position: center center;
+  margin: 10px;
+  width: 250px;
+  height: 180px;
+}
+body .portfolio .container-filter div .fil {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: none;
+  position: relative;
+  margin: 0;
+  background: url(../images/Portfolio/plus.png) rgba(252, 72, 72, 0.75);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .portfolio .container-filter div .fil p {
+  margin: 0;
+  padding: 10px;
+}
+body .portfolio .container-filter div:hover .fil {
+  cursor: pointer;
+  display: block;
+}
+body .our-team {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding-top: 20px;
+}
+body .our-team .team-container {
+  display: flex;
+  justify-content: center;
+}
+body .our-team .team-container .team {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0 50px;
+}
+body .our-team .team-container .team h4 {
+  font-size: 25px;
+  color: #565656;
+}
+body .our-team .team-container .team h4 span {
+  color: #fc635e;
+}
+body .our-team .team-container .team p {
+  color: gray;
+  font-size: 20px;
+}
+body .our-team .team-container .team a {
+  color: #565656;
+  font-size: 10px;
+  text-decoration: none;
+}
+body .our-team .team-container .team a:hover {
+  color: #868686;
+}
+body footer {
+  background: url(../images/footer.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .logo {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+body footer .logo img {
+  padding-right: 15px;
+  vertical-align: middle;
+}
+body footer .logo:hover img {
+  opacity: 0.7;
+}
+body .scrollup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #e44640;
+  border-radius: 50%;
+  font-size: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+body .scrollup:hover {
+  opacity: 1;
+}
